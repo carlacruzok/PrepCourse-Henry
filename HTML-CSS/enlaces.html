@@ -1,0 +1,37 @@
+
+<!--Enlaces absolutos
+Los enlaces absolutos son aquellos cuyo destino apunta a un documento por fuera del sitio y debe ser especificado utilizando la URL completa.-->
+<a href="https://www.soyhenry.com">Ir a SoyHenry
+    <img src="../images/logo.png"
+    alt=""..."
+    title="...">
+</a>
+
+
+<!--Enlaces relativos-->
+<!--la dirección empieza por un slash "/". Esto significa que empezará a buscar la ruta a partir de la raíz del dominio-->
+<a href="/index.html">Enlace 1</a>
+
+<!--Esto significa que empezará a buscar la ruta a partir del nivel de la carpeta actual.-->
+<a href="./pages/shop.html">Enlace 2</a>
+
+<!--empezará a buscar la ruta a partir del nivel inmediatamente superior al de la carpeta actual. Podrías anidar varios "../" 
+    para subir varios niveles.-->
+<a href="../images/cat.png">Enlace 3</a>
+
+<!--Enlaces internos
+permiten referenciar secciones de nuestra página, para hacer esto se utiliza el atributo id del elemento a referenciar-->
+<a href="#shirts">Enlace 2</a>
+<!--otra seccion de la misma pagina-->
+<div id="shirts">
+    ...
+</div>
+
+<a href="./pages/shop.html#shirts">Enlace 2</a>
+<!--seccion en shop-->
+<div id="shirts">
+    ...
+</div>
+<!--El atributo target se utiliza para especificar dónde vamos a abrir la URL enlazada.
+Su valor más utilizado es “_blank”, y sirve para abrir el recurso en una pestaña nueva-->
+<a href="https://www.soyhenry.com" target="_blank">Ir a SoyHenry</a>

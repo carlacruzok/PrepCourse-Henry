@@ -1,0 +1,34 @@
+
+<form action="datos.js" method="get" enctype="multipart/form-data">
+    
+    <label for="nombre">Nombre Completo:</label>
+    <input type="text" name="nombre" value=""/>
+    <br>
+    <br>
+    <label for="email">Correo electronico:</label>
+    <input type="text" name="email" value=""/>
+    <br>
+    <br>
+    <label for="genero">Genero:</label>
+    <input type="radio" name="genero" id="femenino" value="f" />
+    <label for="femenino">Femenino</label>
+    <input type="radio" name="masculino" id="masculino" value="m" />
+    <label for="masculino">Maculino</label>
+    <br>
+    <br>
+    <label for="talles">Talle:</label>
+    <select name="talles">
+        <option value="L">Large</option>
+        <option value="M">Medium</option>
+        <option value="S">Small</option>
+    </select>
+    <br>
+    <br>
+    <label for="consulta">Consulta:</label>
+    <textarea name="consulta" rows="5" cols="33"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Enviar" />
+    <input type="reset" value="Borrar" />
+    
+</form>

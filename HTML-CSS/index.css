@@ -1,0 +1,18 @@
+.conocela {
+    width: 10em;
+    height: 5ex;
+    background-color: rgb(32, 32, 23);
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(85, 83, 83);
+    cursor: pointer;
+  }
+  
+  .conocela:hover {
+    background-color: rgb(250, 248, 245);
+  }
+  
+  .fondo {
+    background-color: rgb(17, 44, 85);
+  }

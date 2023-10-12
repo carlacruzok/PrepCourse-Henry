@@ -1,0 +1,51 @@
+<h1> Formulario: Encabezado sin formato</h1>
+<h2 style="color: red">H2 con formato CSS</h2>
+<head> 
+<link rel="stylesheet" href="index.css"/>
+
+    <style>
+        h2 {color: red;
+        }
+    </style>
+</head>
+<form action="datos.js" method="get" enctype="multipart/form-data">
+    
+    <!--Componentes del formulario-->
+    <label for="apellidp">Apellido:</label>
+    <input type="text" name="apellido" value=""/>
+    <br>
+    <br>
+    <textarea name="descripcion" rows="5" cols="33">
+     Texto modificable...
+    </textarea>
+    <br>
+    <br>
+    <select name="talles">
+        <option value="L">Large</option>
+        <option value="M">Medium</option>
+        <option value="S">Small</option>
+    </select>
+    <br>
+    <br>
+    <div>
+        <label for="grupo">Grupo de opciones:  </label>
+
+        <input type="radio" name="grupo" id="opcion1" value="op1" />
+        <label for="grupo">Opcion 1</label>
+      
+        <input type="radio" name="grupo" id="opcion2" value="op2" />
+        <label for="grupo">Opcion 2</label>
+    </div>
+    <br>
+    <br>
+    <div>
+        <label for="grupo">Grupo de opciones:  </label>
+
+        <input type="checkbox" name="grupo" id="opcion1" value="op1" />
+        <label for="grupo">Opcion 1</label>
+      
+        <input type="checkbox" name="grupo" id="opcion2" value="op2" />
+        <label for="grupo">Opcion 2</label>
+    </div>
+
+</form>

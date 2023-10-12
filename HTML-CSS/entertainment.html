@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html> 
+    <head>  <!-- No tiene representacion visual dentro del contenido de la pagina-->
+        <!-- width establece que el hancho de la page sea igual al del dispositivo-->
+        <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+        <title> Mi primer pagina web </title>
+        
+        <body><!-- Todo lo que este dentro de body se vera reflejado en la pagina-->
+         <main>
+                        <div>
+                        <a href = "">Cine</a>  <a href = "">Teatros</a> <a href = "">Casinos</a>
+                    </div>
+                <table border="0" cellpading="4" cellspacing="4">
+                    <caption> 
+                        Podras visitarnos en:
+                    </caption>
+                    <thead>
+                        <th>Nombre</th>
+                        <th>Ubicacion</th>
+                        <th>Sitio</th>
+                    </thead>
+                    <tr>   
+                        <td> <a href="http://www.cinesgranrex.com.ar/"target="_blank">CINE GRAN REX</a></td>
+                        <td> <iframe
+                            id="inlineFrameExample"
+                            title="Cine"
+                            width="400"
+                            height="400"
+                            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Gral. Paz 174, Córdoba, Provincia de Córdoba, Argentina/&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                        </iframe>
+                          
+                        <td> <img 
+                            id="inlineFrameExample"
+                            title="Cine"
+                            width="400"
+                            height="400"
+                            src="https://www.todoshowcase.com/images/sliders/0000001412.jpg"
+                            alt =""
+                            title =""
+                            /> </td>
+                    </tr>  
+                    <tr>   
+                        <td> <a href="https://www.todoshowcase.com/cine/5/Cordoba"target="_blank">SHOWCASE CINES</a></td>
+                        <td> <iframe
+                            id="inlineFrameExample"
+                            title="SHOWCASE"
+                            width="400"
+                            height="400"
+                            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=José A. de Goyechea 2851, Bo. Altos de San Martín( 5009)Córdoba&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+    
+                          </iframe> </td>
+                        <td>
+                            <img 
+                            id="inlineFrameExample"
+                            title="cinerama"
+                            width="400"
+                            height="400"
+                            src="https://th.bing.com/th/id/R.7fe547a055c119b6489d5118a13f1fef?rik=jG1P7pyi58jlSA&pid=ImgRaw&r=0"
+                            alt =""
+                            title =""
+                            /> 
+                         </td>
+                    </tr>
+                    <tr>   
+                        <td> <a href="https://complejocinerama.com.ar/"target="_blank">CINERAMA</a></td>
+                        <td> <iframe
+                            id="inlineFrameExample"
+                            title="CINERAMA"
+                            width="400"
+                            height="400"
+                            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Av. Colón 345 Galeria Cinerama&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                          </iframe>
+                         </td>
+                         <td>
+                            <img 
+                            id="inlineFrameExample"
+                            title="cinerama"
+                            width="400"
+                            height="400"
+                            src="https://complejocinerama.com.ar/wp-content/uploads/2023/08/Diseno-sin-titulo-2023-08-08T123048.150.png"
+                            alt =""
+                            title =""
+                            /> 
+                         </td>
+                    </tr> 
+                </table>
+            </main>
+            <!-- Mayor jerarquia
+                             
+            <img 
+            src="data:image/jpeg;base64,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"
+            alt =""
+            title ="VENI A DISFRUTAR"
+            width="800"
+            height="800"
+            />  -->
+        </body>
+    </head>
+</html>

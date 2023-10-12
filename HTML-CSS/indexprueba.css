@@ -1,0 +1,111 @@
+
+h1 {
+    color:red;
+}
+
+/* regla 1  Cada declaración CSS está formada por un juego de pares propiedad: valor; no es con un igual ‘=’ (como pasa con los atributos HTML),
+sino con dos puntos ‘:’. Si a un elemento se le aplica más de una propiedad se deben separar con punto y coma ‘;’ */
+p {
+    color:red;
+    font-size: 16px;
+}
+
+/* regla 2 Tampoco se ve afectado por el espacio en blanco. Las propiedades se pueden escribir de corrido o una debajo de la otra. 
+Los comentarios se hacen como en Javascript (utilizando /* … ). Lo que esté comentado, será ignorado por CSS. */
+p {
+    color:red;    font-size: 16px;
+    border: solid 1px   green;
+}
+
+/* regla 3 Siempre que la propiedad representa un número, el valor debe indicar en qué unidad se expresa.
+ Entre el número y la unidad no pueden existir espacios. */
+p {
+    font-size: 16px;
+    padding: 10%;
+    width: 23em;
+}
+
+/* regla 4  Siempre que la propiedad representa un color, el valor se puede expresar de tres maneras distintas: Por nombre del color (en inglés). 
+Por hexadecimal (numeral + 6 caracteres). Por rgb (red, green, blue), tres números de 0 a 255, separados por coma.
+*/
+p {
+    color: #FF0033;    
+    border-color: rgb(255, 0, 0)
+}
+
+/* regla 5 Si se necesita aplicar el mismo formato CSS a más de un elemento diferente, no hace falta escribir dos veces todas las propiedades. 
+Si se escribe más de un elemento, separado por comas, aplica el mismo formato a todos.
+ */
+#elemento1, .grupo1, p {
+    color: red;
+    padding: 10%;
+    border: solid 2em #33ff44; 
+}
+
+/* todos las etiquetas con class igual a "titulos" estaran cambiando su color de texto a aqua marina
+ver pagin index.html */
+.titulos {
+    color: aquamarine;
+}
+
+/* aquel elemento con id 'titulo' cambiara su texto a rojo */
+#titulo {
+color:navajowhite
+}
+
+section {
+    padding: 50px 30px;
+    margin-left: 40px;
+    /* se aplicara a la section*/
+}
+
+section article {
+    background-color: #cccccc;
+    width: 500px;
+    /* se aplicara a article, mas las propiedades de section */
+}
+
+section article h2 {
+    height: 4em;
+    /* se aplicara a h2, mas las propiedades de secton y article*/
+}
+    
+.rojo {
+    color: red;
+}
+
+.azul {
+    color: rgb(17, 44, 85);
+}
+
+ul li {
+    color: red;
+}
+ol li{
+    color: blue;
+}
+
+p {
+    font-weight: bold;
+  }
+  
+  a:link {
+    color: forestgreen;
+    text-decoration-color: hotpink;
+  }
+  
+  .joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-color: gold;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .joinBtn:hover {
+    background-color: bisque;
+  }
+  
