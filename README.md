@@ -1,1 +1,1 @@
-Este es una prueba de como crear un repositorio y clonarlo desde github a mi computadora
+En esta carpeta modificamos el archivo readme.md y es una prueba de como crear un repositorio y clonarlo desde github  con el comando git clone y copiando el link CODE de la pagina de github a mi computadora
