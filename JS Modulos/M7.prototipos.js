@@ -32,3 +32,23 @@ let continente = new LatinoAmerica();
 continente.agregarPais('México');
 //
 console.log(continente.paises);
+
+//---------------------------------------------------------------------------------------------
+
+var objetoPadre = {
+    numero:3
+}
+
+var obj = Object.create(objetoPadre)
+console.log(obj)
+console.log(obj.__proto__)
+//cadena prototipica
+console.log(obj.numero)
+
+//darle props a un objeto
+obj.edad = 5
+console.log(obj)
+console.log(obj.__proto__)
+Object.assign(obj, {name: 'Feli'})
+console.log(objetoPadre)
+console.log(objetoPadre.__proto__)
